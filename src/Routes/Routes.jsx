@@ -1,19 +1,19 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import { registerObserver } from 'react-perf-devtool'
+// import { registerObserver } from 'react-perf-devtool'
 import { ChildsAsFunction } from '../ChildsAsFunction'
 import { HOC } from '../HOC'
 import { RenderProps } from '../RenderProps'
 import { Clone } from '../Clone'
 import { Home } from '../Home'
 
-const options = {
-	shouldLog: true,
-	port: 8080,
-	components: ['Clone', 'ChildsAsFunction', 'RenderProps', 'HOC'],
-}
+// const options = {
+// 	shouldLog: true,
+// 	port: 8080,
+// 	components: ['Clone', 'ChildsAsFunction', 'RenderProps', 'HOC'],
+// }
 
-registerObserver(options)
+// registerObserver()
 
 export default function Routes() {
 	return (
