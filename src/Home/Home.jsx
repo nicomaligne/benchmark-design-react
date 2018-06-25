@@ -18,7 +18,7 @@ class Home extends React.PureComponent {
 					<Button bsStyle="link">Render Props</Button>
 				</Link>
 				<Link to="/childsasfunction" href="/childsasfunction">
-					<Button bsStyle="link">CHildren as function</Button>
+					<Button bsStyle="link">Children as function</Button>
 				</Link>
 			</div>
 		)
