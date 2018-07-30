@@ -20,6 +20,9 @@ class Home extends React.PureComponent {
 				<Link to="/childsasfunction" href="/childsasfunction">
 					<Button bsStyle="link">Children as function</Button>
 				</Link>
+				<Link to="/conditionalRender" href="/conditionalRender">
+					<Button bsStyle="link">Conditional Render</Button>
+				</Link>
 			</div>
 		)
 	}

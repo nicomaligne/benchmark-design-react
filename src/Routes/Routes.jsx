@@ -6,6 +6,7 @@ import { HOC } from '../HOC'
 import { RenderProps } from '../RenderProps'
 import { Clone } from '../Clone'
 import { Home } from '../Home'
+import { ConditionalRender } from '../ConditionalRender'
 
 // const options = {
 // 	shouldLog: true,
@@ -23,6 +24,7 @@ export default function Routes() {
 			<Route path="/renderProps" component={RenderProps} />
 			<Route path="/clone" component={Clone} />
 			<Route path="/childsasfunction" component={ChildsAsFunction} />
+			<Route path="/conditionalRender" component={ConditionalRender} />
 		</Switch>
 	)
 }
